@@ -853,10 +853,10 @@
             $li.addClass(classes);
 
             if (this.options.enableHTML) {
-                $label.html(" " + label);
+                $label.html(label);
             }
             else {
-                $label.text(" " + label);
+                $label.text(label);
             }
         
             var $checkbox = $('<input/>').attr('type', inputType);
